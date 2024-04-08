@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <h1>Fullmetal Alchemist</h1>
+      <h1>Fullmetal Alchemist </h1>
       <nav className="top-nav">
         <li>about us</li>
         <li>info</li>
@@ -13,4 +13,7 @@ function Header() {
   );
 }
 
+
 export default Header;
+
+
