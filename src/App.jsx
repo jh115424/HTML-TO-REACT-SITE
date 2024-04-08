@@ -4,6 +4,7 @@ import CharacterRatings from "./Character-ratings.jsx";
 import "./Character-rating.css";
 import { data } from "../public/fma-data.ts";
 import CharacterCards from "./Character-cards.jsx";
+import "./Character-cards.css";
 
 function App() {
   return (
