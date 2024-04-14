@@ -20,7 +20,7 @@ _You can copy and paste these checklists into your new repository and fill them 
 
 - [ ] Setup eslint - DONE
 - [ ] Pass all linting checks
-- [ ] Format code with prettier
+- [ ] Format code with prettier -DONE
 - [ ] State should not be duplicated
 - [ ] Variables should be named logically
 - [ ] No unnecessary console logs
@@ -34,9 +34,9 @@ _You can copy and paste these checklists into your new repository and fill them 
   - note: See [This Video](https://www.loom.com/share/13ad514f0d804dfeac6c1e487b2ae3dd) on how to submit
 - [ ] Get your react app to look EXACTLY the same as this html project
 - [ ] Use props to customize components that are being used
-- [ ] Use conditional rendering to render odd rows as dark and even rows as light with the "light" | "dark" class names
+- [ ] Use conditional rendering to render odd rows as dark and even rows as light with the "light" | "dark" class names - DONE
 - [ ] Abstract any REPEATED UI into Components
-- [ ] Use per-component CSS imports
+- [ ] Use per-component CSS imports -DONE
 
   For example if you have a `CharacterCard.css` you can have an import that looks like so
 
@@ -48,9 +48,9 @@ function CharacterCard() {
 }
 ```
 
-- [ ] Have at least one Class Component that uses props
+- [ ] Have at least one Class Component that uses props - DONE
 - [ ] Have at least one Functional Component that uses props- DONE
-- [ ] Transform the original data to get the data you want for each component
+- [ ] Transform the original data to get the data you want for each component - DONE
   - The characters in the table should be sorted by votes as shown in the html app
   - The characters table should only show the first top 5 characters
   - The character cards should show all characters, and does not need to be sorted

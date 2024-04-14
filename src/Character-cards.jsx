@@ -1,30 +1,28 @@
 import React from "react";
 
-
 class CharacterCards extends React.Component {
-  render(cards) {
+  render() {
     return (
-      <div>
+  
         <section id="character-cards">
-          <div className="card">
-            <div className="card-titles">
-              {this.props.cards.map((cards, index) => (
-                <div key={index}>
-                  <div className="card-title">
-                    <h3>{cards.name}</h3>
-                    <h4>{cards.nickName}</h4>
-                    <img
-                      src={`${"https://www.giantbomb.com/a/uploads/original/1/19821/694167-armstrong.jpg"}`}
-                      alt="armstrong"
-                    />
-                    <p>{cards.background}</p>
-                  </div>
+          {this.props.cards.map((cards, index) => (
+            <div key = {index} className="card">
+              <div className="card-titles">
+                <h3>{cards.name}</h3>
+                <h4>{cards.nickName}</h4>
                 </div>
-              ))}
+
+                <img
+                  src= {cards.imageUrl}
+                  alt={cards.name}
+                />
+
+                <p>{cards.background}</p>
+             
             </div>
-          </div>
+          ))}
         </section>
-      </div>
+    
     );
   }
 }
