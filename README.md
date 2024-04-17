@@ -51,8 +51,8 @@ function CharacterCard() {
 - [ ] Have at least one Class Component that uses props - DONE
 - [ ] Have at least one Functional Component that uses props- DONE
 - [ ] Transform the original data to get the data you want for each component - DONE
-  - The characters in the table should be sorted by votes as shown in the html app
-  - The characters table should only show the first top 5 characters
-  - The character cards should show all characters, and does not need to be sorted
-  - We should be passing our array of characters (the data array) from the top to the children
+  - The characters in the table should be sorted by votes as shown in the html app - DONE
+  - The characters table should only show the first top 5 characters - DONE
+  - The character cards should show all characters, and does not need to be sorted- DONE
+  - We should be passing our array of characters (the data array) from the top to the children - DONE
   - You can transform that data either before or after sending it to the child component

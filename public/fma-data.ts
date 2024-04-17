@@ -12,7 +12,7 @@ export const data: Character[] = [
     name: "Alex Louis Armstrong",
     nickName: "Major Armstrong",
     skillset: ["Flawless Bodybuilding", "Stone Alchemy"],
-    votes: 90,
+    votes: 94,
     background:
       "Major Armstrong may look big and strong, but deep down he's the biggest sap in the entire show",
     imageUrl:
@@ -32,7 +32,7 @@ export const data: Character[] = [
     name: "Edward Elrich",
     nickName: "The Fullmetal Alchemist",
     skillset: ["Human Transmutation", "Alchemy", "Being Short"],
-    votes: 109,
+    votes: 100,
     background:
       "Edward is a master alchemist and our main character... just don't call him short",
     imageUrl:
@@ -51,7 +51,7 @@ export const data: Character[] = [
     name: "Nina Tucker",
     nickName: null,
     skillset: ["Being Adorable", "Combining..."],
-    votes: 80,
+    votes: 93,
     imageUrl:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9dK-tXCnVxbSeSJuCKmiX0zUbnCEV1ss54DeOYgXUHSE0WB23TAUD4a3itwFbzJ9fkg&usqp=CAU",
     background:

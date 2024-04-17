@@ -6,16 +6,12 @@ import { data } from "../public/fma-data.ts";
 import CharacterCards from "./Character-cards.jsx";
 import "./Character-cards.css";
 
-
-
-
 function App() {
   return (
     <>
       <Header />
 
       <CharacterRatings characters={data} />
-      
 
       <CharacterCards cards={data} />
     </>
